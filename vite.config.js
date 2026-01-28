@@ -4,10 +4,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  
+  // 👇 required ONLY for GitHub Pages
   base: '/Portfolio/',
 
-
+  // 👇 dev server (unchanged)
   server: {
     port: 3000,
     proxy: {
